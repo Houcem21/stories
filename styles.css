@@ -1,0 +1,22 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #efefef;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.slider {
+    height: 100vh;
+    background-image: linear-gradient(to right, #adff2f, white, #adff2f);
+    margin-bottom: 120px;
+}
+
+.carousel-item img {
+    max-height: 100vh;
+    width: auto !important;
+    object-fit: cover;
+}
